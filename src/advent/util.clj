@@ -9,3 +9,9 @@
     (slurp path)
     ))
 
+(defn multi-split [data sep]
+  (if (empty? sep)
+    data
+    (map #(multi-split % (rest sep)) (str/split data (first sep)))))
+
+(defn split-groups [data] (multi-split data [#"\n\n" #"\n"]))
