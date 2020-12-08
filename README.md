@@ -9,3 +9,4 @@ My solutions to [Advent of code 2020](https://adventofcode.com/2020/) in Clojure
 - [Day 5: Binary Boarding](/src/advent/day05.clj)
 - [Day 6: Custom Customs](/src/advent/day06.clj)
 - [Day 7: Handy Haversacks](/src/advent/day07.clj)
+- [Day 8: Handheld Halting](/src/advent/day08.clj)
