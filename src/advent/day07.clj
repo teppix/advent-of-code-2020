@@ -1,6 +1,7 @@
 (ns advent.day07
   (:require [advent.util :refer [get-resource split-groups]]
-            [clojure.set :refer [union intersection]]))
+            [clojure.set :refer [union intersection]]
+            [clojure.string :as string]))
 
 (def test1-data (string/split-lines (get-resource "test1")))
 (def test2-data (string/split-lines (get-resource "test2")))
