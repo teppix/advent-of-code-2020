@@ -11,3 +11,4 @@ My solutions to [Advent of code 2020](https://adventofcode.com/2020/) in Clojure
 - [Day 7: Handy Haversacks](/src/advent/day07.clj)
 - [Day 8: Handheld Halting](/src/advent/day08.clj)
 - [Day 9: Encoding Error](/src/advent/day09.clj)
+- [Day 10: Adapter Array](/src/advent/day10.clj)
