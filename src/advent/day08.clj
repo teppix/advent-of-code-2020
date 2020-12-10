@@ -64,7 +64,7 @@
        (modify poke-at)
        (run trace?)))
 
-(assert (= [8 true]
+(assert (= {:acc 8 :ok true}
            (->> test-data
                 parse-prg
                 (run-mod false 7))))
