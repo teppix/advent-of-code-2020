@@ -1,8 +1,5 @@
-(ns advent.day10)
-
 (ns advent.day10
-  (:require [advent.util :refer [get-resource]]
-            [clojure.math.combinatorics :refer [combinations]]))
+  (:require [advent.util :refer [get-resource]]))
 
 (defn load-data [s] (->> s
                          get-resource
